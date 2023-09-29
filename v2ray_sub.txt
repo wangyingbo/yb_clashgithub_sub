@@ -30,13 +30,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script type='text/javascript' src='https://clashgithub.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
 <script type='text/javascript' src='https://clashgithub.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
 <link rel="https://api.w.org/" href="https://clashgithub.com/wp-json/" /><!-- FIFU: meta tags for featured image (begin) -->
-<meta property="og:image" content="https://clashgithub.com/wp-content/uploads/fti/cover1.jpg" />
-<!-- FIFU: meta tags for featured image (end) --><meta property="og:title" content='「09月28日」2023年最新高速8.1M/S免费节点，免费公益SSR/V2ray/Shadowrocket/Clash节点/小火箭订阅链接|科学上网|免费梯子' />
+<meta property="og:image" content="https://clashgithub.com/wp-content/uploads/fti/cover2.jpg" />
+<!-- FIFU: meta tags for featured image (end) --><meta property="og:title" content='「09月29日」2023年最新高速10.9M/S免费节点，免费公益SSR/V2ray/Shadowrocket/Clash节点/小火箭订阅链接|科学上网|免费梯子' />
 <meta property="og:description" content='' />
 
 <meta name="twitter:card" content='summary_large_image' />
-<meta name="twitter:title" content='「09月28日」2023年最新高速8.1M/S免费节点，免费公益SSR/V2ray/Shadowrocket/Clash节点/小火箭订阅链接|科学上网|免费梯子' />
-<meta name="twitter:description" content='' /><meta name="twitter:image" content="https://clashgithub.com/wp-content/uploads/fti/cover1.jpg" /><!-- ## NXS/OG ## --><!-- ## NXSOGTAGS ## --><!-- ## NXS/OG ## -->
+<meta name="twitter:title" content='「09月29日」2023年最新高速10.9M/S免费节点，免费公益SSR/V2ray/Shadowrocket/Clash节点/小火箭订阅链接|科学上网|免费梯子' />
+<meta name="twitter:description" content='' /><meta name="twitter:image" content="https://clashgithub.com/wp-content/uploads/fti/cover2.jpg" /><!-- ## NXS/OG ## --><!-- ## NXSOGTAGS ## --><!-- ## NXS/OG ## -->
 <noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>    <script>window._MBT = {uri: 'https://clashgithub.com/wp-content/themes/modown', child: 'https://clashgithub.com/wp-content/themes/modown', urc: 'https://clashgithub.com/wp-content/themes/modown', uru: 'https://clashgithub.com/wp-content/themes/modown', url:'https://clashgithub.com', urg: 'https://clashgithub.com/wp-content/themes/modown', url:'https://clashgithub.com',usr: 'https://clashgithub.com/user', roll: [], admin_ajax: 'https://clashgithub.com/wp-admin/admin-ajax.php', erphpdown: '', image: '0.6316', hanimated: '0', fancybox: '0', anchor: '0'}</script>
   <style>
       .grids .grid h3 a{height: 40px;-webkit-line-clamp:2;}
