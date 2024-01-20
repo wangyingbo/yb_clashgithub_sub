@@ -19,39 +19,39 @@ dns:
   fallback: [https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
   fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 223.75.236.241/32, 182.43.124.6/32, 106.74.25.198/32], domain: [+.bianyuan.xyz, +.happynothings031.xyz, +.jsdelivr.net, +.proton.me]}
 proxies:
-  - {name: 高性价比机场:https://kcloud.xyz/, server: 127.0.0.1, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3, udp: true}
-  - {name: 🇺🇸 _US_美国-&gt;🇬🇧_GB_英国, server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: mikasa.erenyeager.cloudns.biz}}, udp: true}
-  - {name: _GI_直布罗陀, server: 95.164.69.27, port: 80, type: vmess, uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: internet.life.com.by}}, udp: true}
-  - {name: 🇰🇷 _KR_韩国, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: false, udp: true}
+  - {name: 高性价比机场:https://kfcloud.xyz/, server: 127.0.0.1, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3, udp: true}
+  - {name: 🇺🇸 _US_美国, server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
+  - {name: 🇬🇧 _GB_英国, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}, udp: true}
+  - {name: 🇺🇸 _US_美国 2, server: glaSco.fx-trAder.shop, port: 80, type: vmess, uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vvv2vayo2.everythingisreve.shop}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 高性价比机场:https://kcloud.xyz/
-      - 🇺🇸 _US_美国-&gt;🇬🇧_GB_英国
-      - _GI_直布罗陀
-      - 🇰🇷 _KR_韩国
+      - 高性价比机场:https://kfcloud.xyz/
+      - 🇺🇸 _US_美国
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 _US_美国 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 高性价比机场:https://kcloud.xyz/
-      - 🇺🇸 _US_美国-&gt;🇬🇧_GB_英国
-      - _GI_直布罗陀
-      - 🇰🇷 _KR_韩国
+      - 高性价比机场:https://kfcloud.xyz/
+      - 🇺🇸 _US_美国
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 _US_美国 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 高性价比机场:https://kcloud.xyz/
-      - 🇺🇸 _US_美国-&gt;🇬🇧_GB_英国
-      - _GI_直布罗陀
-      - 🇰🇷 _KR_韩国
+      - 高性价比机场:https://kfcloud.xyz/
+      - 🇺🇸 _US_美国
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 _US_美国 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -70,10 +70,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 高性价比机场:https://kcloud.xyz/
-      - 🇺🇸 _US_美国-&gt;🇬🇧_GB_英国
-      - _GI_直布罗陀
-      - 🇰🇷 _KR_韩国
+      - 高性价比机场:https://kfcloud.xyz/
+      - 🇺🇸 _US_美国
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 _US_美国 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -84,29 +84,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 高性价比机场:https://kcloud.xyz/
-      - 🇺🇸 _US_美国-&gt;🇬🇧_GB_英国
-      - _GI_直布罗陀
-      - 🇰🇷 _KR_韩国
+      - 高性价比机场:https://kfcloud.xyz/
+      - 🇺🇸 _US_美国
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 _US_美国 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 高性价比机场:https://kcloud.xyz/
-      - 🇺🇸 _US_美国-&gt;🇬🇧_GB_英国
-      - _GI_直布罗陀
-      - 🇰🇷 _KR_韩国
+      - 高性价比机场:https://kfcloud.xyz/
+      - 🇺🇸 _US_美国
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 _US_美国 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 高性价比机场:https://kcloud.xyz/
-      - 🇺🇸 _US_美国-&gt;🇬🇧_GB_英国
-      - _GI_直布罗陀
-      - 🇰🇷 _KR_韩国
+      - 高性价比机场:https://kfcloud.xyz/
+      - 🇺🇸 _US_美国
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 _US_美国 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -122,10 +122,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 高性价比机场:https://kcloud.xyz/
-      - 🇺🇸 _US_美国-&gt;🇬🇧_GB_英国
-      - _GI_直布罗陀
-      - 🇰🇷 _KR_韩国
+      - 高性价比机场:https://kfcloud.xyz/
+      - 🇺🇸 _US_美国
+      - 🇬🇧 _GB_英国
+      - 🇺🇸 _US_美国 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
